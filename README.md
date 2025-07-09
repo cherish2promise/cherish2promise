@@ -1,15 +1,47 @@
 ## 👋 About Me
 
 안녕하세요! 저는 **이헌준(Heonjun Lee)**, 데이터 엔지니어이자 AI 개발자입니다.  
-금융, 관세, 세무 분야의 실질적인 문제를 해결하기 위해 **AI, 데이터, 클라우드 인프라**를 적극적으로 활용하고 있으며,  
-LangChain, LangGraph, OpenAI, Docker, Kafka 등 다양한 기술 스택을 바탕으로 **AI 기반 서비스 기획 및 구현**을 진행해왔습니다.
+약 **4년간 DBA(Database Administrator)**로 일하며 **대규모 트랜잭션 처리, 인덱스 튜닝, 보안 로그 분석** 등 실무 경험을 쌓았고,  
+그 이후 **AI와 클라우드 기반의 서비스 개발**로 확장해 나가고 있습니다.
 
-저는 현실의 불편함에서 출발해, 그것을 기술로 해결하는 데 열정을 가지고 있습니다.  
-📈 **자동화된 데이터 처리**, 🧠 **생성형 AI 인터페이스 설계**, ☁️ **클라우드 기반 인프라 구성**에 특히 관심이 많습니다.
+금융, 관세, 세무, 물류 등 도메인에 맞는 실질적인 문제를 해결하기 위해  
+LangChain, OpenAI, Kafka, Docker, AWS 등 다양한 기술을 적극적으로 활용해왔습니다.
 
 ---
 
 ## 🧠 Skills & Tech Stack
+### 🗄️ Database & DBA
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat&logo=splunk&logoColor=white)
+![Logpresso](https://img.shields.io/badge/Logpresso-007ACC?style=flat&logo=data&logoColor=white)
+
+### 🖥️ Backend & API
+![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+
+### 🤖 AI / ML
+![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-FF1493?style=flat&logo=yolo&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-008000?style=flat&logo=python&logoColor=white)
+![Optuna](https://img.shields.io/badge/Optuna-4B8BBE?style=flat&logo=python&logoColor=white)
+
+### ☁️ Infra & DevOps
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
+
+### 🧰 Other Tools
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white)
+![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 
 ### ⚙️ Backend & API
 - Java / Spring Boot (REST API, Spring JPA)
@@ -51,19 +83,34 @@ LangChain, LangGraph, OpenAI, Docker, Kafka 등 다양한 기술 스택을 바�
   공항 X-ray 이미지를 분석하여 마약, 무기, 위험물의 반입 여부를 실시간 판단하는 AI 기반 감지 시스템  
   → YOLOv8 + Roboflow + FastAPI  
   → 위험물 탐지 정확도 향상을 위해 클래스 리밸런싱, 데이터 증강, Bounding Box 라벨 정제 수행
+
+- **와인 등급 맞추기**  
+  와인의 화학적 성분 데이터를 바탕으로 품질 등급을 예측하는 머신러닝 분류 모델 개발  
+  → Python + XGBoost + LightGBM + Scikit-learn  
+  → 불균형한 등급 분포 처리(SMOTE, 클래스 가중치), F1-score 기준 성능 개선
+
+- **기업 성공 확률 예측**  
+  Crunchbase 데이터를 기반으로 스타트업의 성공 가능성을 예측하는 이진 분류 모델 구축  
+  → Python + XGBoost + SHAP  
+  → 주요 변수 영향력 분석 및 시각화로 인사이트 제공
+
+- **운전 예상 시간 예측**  
+  시간대, 요일, 날씨 등 다양한 요소를 반영한 교통 소요 시간 회귀 모델 개발  
+  → Python + CatBoost + Google Maps API  
+  → 로그 변환 및 이상값 처리로 모델 정확도 향상 (RMSE 기준)
 ---
 
 ## 🌱 Education & Certificates
 
-- 정보처리기사 (Engineer Information Processing)
-- KT able School AI 과정 수료 (LangChain, RAG, AI 서비스 기획)
+- SW 교육과정 수료
+- KT able School AI 과정 수료 (LangChain, RAG, AI 서비스 기획,ML)
 - 각종 AI/데이터 공모전 참가 (관세청, 대학교 등)
 
 ---
 
 ## ✨ Contact
 
-- 📧 Email: heonjunlee.dev@gmail.com  
+- 📧 Email: akilae2005@gmail.com  
 - 🐙 GitHub: [github.com/heonjun](https://github.com/heonjun)
 
 ---
