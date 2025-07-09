@@ -10,11 +10,11 @@ LangChain, OpenAI, Kafka, Docker, AWS 등 다양한 기술을 적극적으로 �
 ---
 
 ## 🧠 Skills & Tech Stack
+
 ### 🗄️ Database & DBA
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 ![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat&logo=splunk&logoColor=white)
 ![Logpresso](https://img.shields.io/badge/Logpresso-007ACC?style=flat&logo=data&logoColor=white)
 
@@ -25,15 +25,18 @@ LangChain, OpenAI, Kafka, Docker, AWS 등 다양한 기술을 적극적으로 �
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 
-### 🤖 AI / ML
+### 🤖 AI / ML / DL
 ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat&logo=langchain&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-FF1493?style=flat&logo=yolo&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-008000?style=flat&logo=python&logoColor=white)
 ![Optuna](https://img.shields.io/badge/Optuna-4B8BBE?style=flat&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 
-### ☁️ Infra & DevOps
+### ☁️ Cloud & DevOps
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
@@ -98,6 +101,17 @@ LangChain, OpenAI, Kafka, Docker, AWS 등 다양한 기술을 적극적으로 �
   시간대, 요일, 날씨 등 다양한 요소를 반영한 교통 소요 시간 회귀 모델 개발  
   → Python + CatBoost + Google Maps API  
   → 로그 변환 및 이상값 처리로 모델 정확도 향상 (RMSE 기준)
+
+  - **대신증권 통합 로그 시스템 구축**  
+  전국 지점에서 발생하는 보안/트랜잭션 로그를 중앙 통합 시스템에서 실시간 수집 및 분석  
+  → Java + MySQL + Logpresso  
+  → 사용자에 따라 로그가 의미 있게 보이도록 **커스텀 파싱** 로직 설계  
+  → 대량 로그 데이터를 **분류/구조화**하여 탐색 가능한 형태로 가공하고 시각화 연동
+
+- **교촌치킨 POS 데이터 시각화 프로젝트**  
+  전국 매장의 POS 데이터를 활용해 시간대별·지점별 주문 패턴 분석 및 마케팅/재고 전략 인사이트 도출  
+  → 자체 BI 도구 + Java + MySQL  
+  → 요일/시간대 트렌드 분석 및 신제품 반응을 실시간 대시보드로 제공
 ---
 
 ## 🌱 Education & Certificates
