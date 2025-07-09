@@ -41,14 +41,16 @@ LangChain, LangGraph, OpenAI, Docker, Kafka 등 다양한 기술 스택을 바�
   Docker 기반 HS코드 → 한글 품명 자동 반환 API 서비스 개발  
   → Flask + pymysql + Docker + PostgreSQL
 
-- **관세 최적화 경로 분석 프로젝트**  
-  YOLOv8로 이미지 분류 후 XGBoost로 최적 통관 루트 추천  
-  → Roboflow + YOLOv8 + XGBoost + FastAPI
+- **걷기가 서재**  
+  사용자의 산책 데이터를 기반으로 포인트를 적립하고, 독서 콘텐츠를 구독할 수 있는 모바일 앱  
+  → Java Spring Boot (구독/포인트 관리), Kafka 기반 이벤트 처리, MSA 구조 설계  
+  → **AI를 활용한 책 커버 이미지 자동 생성 기능** 포함  
+  → 현재 **모놀리스 구조 학습 병행 중**, 구조적 전환 대비
 
-- **세무사 AI 어시스턴트**  
-  세금계산서 OCR, 절세전략 추천, 종소세 시뮬레이터, 법령 기반 RAG 챗봇  
-  → ChatGPT API + OCR + 세무 모델링
-
+- **마약 · 위험물 반입 감지 프로그램**  
+  공항 X-ray 이미지를 분석하여 마약, 무기, 위험물의 반입 여부를 실시간 판단하는 AI 기반 감지 시스템  
+  → YOLOv8 + Roboflow + FastAPI  
+  → 위험물 탐지 정확도 향상을 위해 클래스 리밸런싱, 데이터 증강, Bounding Box 라벨 정제 수행
 ---
 
 ## 🌱 Education & Certificates
